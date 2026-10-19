@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 ROOT = Path(__file__).parent
-DATA_PATH = ROOT / "data" / "sample_fingerprint_features.csv"
+DATA_PATH = ROOT / "sample_fingerprint_features.csv"
 FEATURES = [
     "ridge_clarity", "pore_visibility", "texture_entropy",
     "ridge_continuity", "specular_reflection", "surface_uniformity"
