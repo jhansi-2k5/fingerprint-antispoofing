@@ -17,7 +17,7 @@ FEATURES = [
 ]
 LABEL = "label"
 
-st.set_page_config(page_title="Fingerprint Anti-Spoofing Demo", page_icon="🔎", layout="wide")
+st.set_page_config(page_title="Fingerprint Anti-Spoofing Demo", page_icon="🫆", layout="wide")
 
 @st.cache_data
 def load_data():
